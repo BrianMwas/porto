@@ -45,11 +45,11 @@
                     </label>
                   </p>
           <div class="flex mb-5">
-            <input v-model="formData.firstName" type="text" name="username" id="name_id" class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-1/2 mr-2 py-5 px-3" placeholder="First name">
-            <input v-model="formData.secondName" type="text" name="username" id="name_id" class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-1/2 py-5 px-3 " placeholder="Second name">
+            <input v-model="formData.firstName" type="text" name="firstName" id="firstName" required class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-1/2 mr-2 py-5 px-3" placeholder="First name">
+            <input v-model="formData.secondName" type="text" name="secondName" id="secondName" class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-1/2 py-5 px-3 " placeholder="Second name">
           </div>
-          <input v-model="formData.email" type="email" name="email" id="email_id" class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-full py-5 px-3 mb-5" placeholder="yours@email.com">
-          <textarea v-model="formData.message" name="msg" id="msg" rows="6"  class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-full py-5 px-3 mb-5" placeholder="A little intro to get know you better."></textarea>
+          <input v-model="formData.email" type="email" name="email" id="email" required class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-full py-5 px-3 mb-5" placeholder="yours@email.com">
+          <textarea v-model="formData.message" name="message" id="message" rows="6"  required class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-full py-5 px-3 mb-5" placeholder="A little intro to get know you better."></textarea>
           <button type="submit" class="mt-3 bg-white text-red-500 w-1/3 hover:bg-yellow-500 hover:text-white transition duration-200 hover:border-2 hover:border-blue-200 outline-none px-5 py-4 float-right rounded-sm">
             Send
           </button>

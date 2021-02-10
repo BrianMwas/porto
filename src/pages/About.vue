@@ -1,6 +1,6 @@
 <template>
-  <div class="md:flex w-screen sm:flex-col">
-    <div class="skills bg-white h-full w-screen p-5 overflow-y-scroll">
+  <div class="md:flex w-screen md:flex-row flex-col overflow-hidden">
+    <div class="skills bg-white h-auto w-screen p-5">
       <div class="flex flex-col mt-10">
         <h2 class="text-4xl font-display leading-snug mb-5">
           My Story
@@ -67,7 +67,7 @@
         </div>
       </div>
     </div>
-    <div class="progress bg-gray-900 h-full w-screen p-5 overflow-y-scroll">
+    <div class="progress bg-gray-900 h-auto w-screen p-5">
       <div class="flex flex-col mt-10 ">
         <h2 class="font-display text-4xl text-white mb-8">
           Skills.

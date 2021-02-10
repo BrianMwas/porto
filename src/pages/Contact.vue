@@ -39,11 +39,11 @@
             Contact Us
           </h2>
           <input type="hidden" name="form-name" value="contact" />
-                  <p hidden>
-                    <label>
-                      Don’t fill this out: <input name="bot-field" />
-                    </label>
-                  </p>
+          <p hidden>
+            <label>
+              Don’t fill this out: <input name="bot-field" />
+            </label>
+          </p>
           <div class="flex mb-5">
             <input v-model="formData.firstName" type="text" name="firstName" id="firstName" required class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-1/2 mr-2 py-5 px-3" placeholder="First name">
             <input v-model="formData.secondName" type="text" name="secondName" id="secondName" class="border-gray-200 focus:placeholder-white focus:outline-none focus:text-white focus:bg-blue-600 rounded-sm w-1/2 py-5 px-3 " placeholder="Second name">
